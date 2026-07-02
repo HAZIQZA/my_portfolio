@@ -26,14 +26,6 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: FolioOne
-  * Template URL: https://bootstrapmade.com/folioone-bootstrap-portfolio-website-template/
-  * Updated: Aug 23 2025 with Bootstrap v5.3.7
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="portfolio-page">
@@ -41,32 +33,26 @@
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
-      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-      <img src="assets/img/logo.webp" alt="">
-      <h1 class="sitename">FolioOne</h1> 
-    </a> -->
-
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <div class="header-social-links">
-        <a href="https://tryhackme.com/p/HAZIQZA"><img src="./assets/svg/Tryhackme--Streamline-Simple-Icons.svg"  alt="Tryhackme" width="24" height="24"></a>
+        <a href="https://tryhackme.com/p/HAZIQZA"><img src="./assets/svg/Tryhackme--Streamline-Simple-Icons.svg" alt="Tryhackme" width="24" height="24"></a>
         <a href="https://www.facebook.com/abdul.salih.5855" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/aslah.ap/" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="https://www.linkedin.com/in/aslah-aslah/" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
-  </header>
   </header>
 
   <main class="main">
@@ -77,103 +63,40 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-       </div><!-- End Section Title -->
+      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-        <!--  <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-strategy">Strategy</li>
-            <li data-filter=".filter-finance">Finance</li>
-            <li data-filter=".filter-operations">Operations</li>
-            <li data-filter=".filter-technology">Technology</li>
-          </ul> End Portfolio Filters -->
+        <!-- Unified container hosting your dynamic grid cards -->
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="300">
+          
+          <!-- Live Elfsight LinkedIn Feed Widget Embed -->
+          <script src="https://elfsightcdn.com/platform/platform.js" async></script>
+          <div class="elfsight-app-de7b8374-5c64-496a-ba71-e31bcbd20cd6" data-elfsight-app-lazy></div>
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
-              <div class="portfolio-card">
-                <div class="portfolio-img">
-                  <img src="assets/img/portfolio/Network_cable.jpg" alt="Portfolio Item" class="img-fluid">
-                  <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/Network_cable.jpg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
-                  </div>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Network fundamentals</h4>
-                  <div class="portfolio-tags">
-                    <span>Network</span>
-                    <span>Connnctions</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+        </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
-              <div class="portfolio-card">
-                <div class="portfolio-img">
-                  <img src="assets/img/portfolio/brototype_foundation.jpg" alt="Portfolio Item" class="img-fluid">
-                  <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/brototype_foundation.jpg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
-                  </div>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Foundation </h4>
-                  <div class="portfolio-tags">
-                    <span>Brototype</span>
-                    <span>4th week review</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-operations">
-              <div class="portfolio-card">
-                <div class="portfolio-img">
-                  <img src="assets/img/portfolio/vashcon.jpg" alt="Portfolio Item" class="img-fluid">
-                  <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/vashcon.jpg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
-                  </div>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Vashcon program</h4>
-                  
-                  <div class="portfolio-tags">
-                    <span>Operations</span>
-                    <span>Logistics</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+      </div>
 
     </section><!-- /Portfolio Section -->
 
   </main>
 
   <footer id="footer" class="footer">
-
     <div class="container">
       <div class="copyright text-center ">
         <p>© <span>Copyright</span> <strong class="px-1 sitename">Aslah ap</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://tryhackme.com/p/HAZIQZA"><img src="./assets/svg/Tryhackme--Streamline-Simple-Icons.svg"  alt="Tryhackme" width="24" height="24"></a>
+        <a href="https://tryhackme.com/p/HAZIQZA"><img src="./assets/svg/Tryhackme--Streamline-Simple-Icons.svg" alt="Tryhackme" width="24" height="24"></a>
         <a href="https://www.facebook.com/abdul.salih.5855"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/aslah.ap/"><i class="bi bi-instagram"></i></a>
         <a href="https://www.linkedin.com/in/aslah-aslah/"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">Aslah ap</a>
       </div>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
@@ -196,7 +119,6 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
